@@ -17,7 +17,7 @@ for (let i = 0; i < nombres.length; i++) {
         break;
     }
     console.log(nombres[i]);
-}
+};
 
 /* continue
     Nos sirve para saltar a la siguiente iteración.
@@ -31,4 +31,4 @@ for (let i = 0; i < invitados.length; i++) {
         continue;
     }
     console.log(invitados[i]);
-}
+};
