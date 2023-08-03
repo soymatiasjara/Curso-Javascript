@@ -1,13 +1,13 @@
 /* .idexOf()
- Obtenemos el primer index de un elemento.
- Si no hay un elemento nos retorna -1.
+ Obtenemos el número de la posición del valor en el array.
+ Si no hay existe el valor nos retorna -1.
 */
 const nombres = ['Carlos', 'Roberto', 'Ignacio', 'Daniel', 'Gonzalo', 'Diego', 'Nicolás', 'Ignacio', 5];
 console.log(nombres.indexOf('Ignacio'));
 console.log(nombres.indexOf('Matías'));
 
 /* .lastIndexOf()
-    Obtenemos el último index de un elemento.
+    Obtenemos el número de la posición del valor en el array.
 */
 console.log(nombres.lastIndexOf('Ignacio'));
 
