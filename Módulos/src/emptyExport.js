@@ -1,0 +1,1 @@
+console.log('Hola, vengo del archivo de emptyExport.js');

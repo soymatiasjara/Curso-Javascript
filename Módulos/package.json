@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "rollup-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config --watch"
+  },
+  "devDependencies": {
+    "rollup": "^3.27.1"
+  }
+}
