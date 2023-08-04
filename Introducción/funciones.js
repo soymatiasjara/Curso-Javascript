@@ -8,5 +8,5 @@
 //     console.log('Hola desde una variable!');
 // };
 
-// Forma #3 - Función de tipo flecha, óptimo para funciones de una linea
+// Forma #3 - Función de tipo flecha, óptimo para funciones de una linea y en general.
 const saludo = () => console.log('Hola desde una flecha!');
