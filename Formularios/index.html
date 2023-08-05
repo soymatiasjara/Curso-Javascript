@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="estilos.css" />
-		<script defer src="./eventosFormularios.js"></script>
+		<script defer src="./validarFormularios.js"></script>
 		<title>Trabajando con Formularios</title>
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 			<form id="formulario-donacion" action="" method="">
 				<input type="text" name="correo" id="correoId" placeholder="Ingrese correo (input)"/>
 				<select name="pais" id="paisId">
-					<option selected disabled value="Ninguno">Selecciona un país (select_box)</option>
+					<option selected disabled value="">Selecciona un país (select_box)</option>
                     <option value="chile">Chile</option>
 					<option value="mexico">México</option>
 					<option value="españa">España</option>
@@ -33,6 +33,7 @@
 					Aceptar terminos y condiciones (input-checkbox)
 				</label>
 				<button id="btnEnviar">Enviar</button>
+				<!-- <button id="btnCancelar">Cancelar</button> -->
 			</form>
 		</div>
 	</body>
