@@ -1,0 +1,17 @@
+{
+    "id": 1,
+    "nombre": "Matías",
+    "suscriptor": true,
+    "posts": [
+        {
+            "id": 1,
+            "titulo": "título 1",
+            "texto": "descripción título 1"
+        },
+        {
+            "id": 2,
+            "titulo": "título 2",
+            "texto": "descripción título 2"
+        }
+    ]
+}
